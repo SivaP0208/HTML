@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<title>Hello World</title>
+
+<head>
+    <!--
+            for embedding css and js files
+        -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+    <h2>Heading Tags, Bold Tag, Italic Tag</h2>
+    <h1>HTML Course</h1>
+    <h2>Text Tags Pert 1</h2>
+    <p>In this video we are learning about text tags such as heading tags, paragraph tag, bold and italic tags</p>
+    <p>Visit <b>TamilDeveloper</b> channel for more videos like this</p>
+    <p>Become a developer by learning in your <i>mother tonque</i></p>
+
+    <br>
+    <h2>Superscript Tag</h2>
+    <p>(x+y)(x-y) = x<sup>2</sup>-y<sup>2</sup></p><br>
+
+    <h2>Subscript Tag</h2>
+    <p>AI<sub>2</sub>(SO<sub>4</sub>)<sub>3</sub></p><br>
+
+    <h2>Strong and Emphasis Tags</h2>
+    <p>Smoking is Injurious to health. Smoking <strong>kills</strong></p>
+    <p>India won the <em>gold</em> medal in Olympics.</p>
+    <p>India won the gold medal in <em>Olympics</em> </p><br>
+
+    <h2>Quote and Blockquote Tags</h2>
+    <q>Attitude is a little thing that makes a big difference</q>
+    <blockquote>Education is what remains after one has forgotten what one has learned in school - <strong>Albert
+            Einstein</strong></blockquote>
+
+    <br>
+    <h2>Abbrevation and Acronym Tag</h2>
+    <p><abbr title="Doctor">Dr.</abbr>MGR</p>
+    <p><acronym title='"Indian Space Research Organization"'>ISRO</acronym></p><br>
+
+    <h2>Delete, Insert and Strikeout Tags</h2>
+    <p>I plan to buy a <del>samsung</del> <ins>Dell</ins> monitor</p>
+    <p>I'm willing to pay <s>12K</s> 15K rupees</p>
+
+    <h2>Figure, fig caption, Map tag</h2>
+    <figure>
+        <img src="Images/Screenshot (3).png" alt="Screenshot" title="Screenshot" width="70%" height="60%" usemap="#Screenshot">
+        <figcaption>Screenshot</figcaption>
+    </figure>
+    <map name="Screenshot">
+        <area shape="rect" coords=" " href="www.google.com" alt="google">
+    </map>
+
+    <form method="post">
+        <fieldset>
+            <legend>HTML Form</legend>
+                <label for="name">Name : </label>
+                <input type="text" name="name" id="name" placeholder="Enter your name" required><br>
+                <label for="email">Email : </label>
+                <input type="email" name="email" id="email" placeholder="Enter your email"><br>
+                <label for="dob">Date of Birth : </label>
+                <input type="date" name="dob" id="dob"><br>
+                <label for="age">Age : </label>
+                <input type="number" name="age" id="age" min="1" max="99" required><br>
+                <label for="password">Create Password : </label>
+                <input type="password" name="password" id="password" maxlength="8" placeholder="Enter password"><br>
+                <label for="qualification">Qualification : </label>
+                <input type="radio" name="qualification" id="qualification" value="" checked>Select
+                <input type="radio" name="qualification" id="qualification" value="B.E">B.E
+                <input type="radio" name="qualification" id="qualification" value="B.Tech">B.Tech
+                <input type="radio" name="qualification" id="qualification" value="B.Sc">B.Sc <br>
+                <label for="cgpa">CGPA : </label>
+                <input type="range" name="cgpa" id="cgpa" min="1" max="10" step="1"><br>
+                <label for="subjects[]">Subjects You Want : </label>
+                <input type="checkbox" name="Subjects[]" id="subjects[]" value="HTML">HTML
+                <input type="checkbox" name="subjects[]" id="subjects[]" value="CSS">CSS
+                <input type="checkbox" name="subjects[]" id="subjects[]" value="JS">Javascript <br>
+                <label for="sports">Interested Sports : </label>
+                <select name="sports[]" id="sports">
+                    <option value="" selected>Select</option>
+                    <option value="football">FootBall</option>
+                    <option value="basketball">BasketBall</option>
+                    <option value="volleyball">VolleyBall</option>
+                </select><br>
+                <label for="message">Message : </label><br>
+                <textarea name="message" cols="30" rows="5" placeholder="Enter your message"></textarea><br>
+                <input type="submit" value="SEND"><br>
+                <label for="resume">Resume : </label>
+                <input type="file" name="resume" id="resume">
+        </fieldset>
+    </form>
+
+    <h2>Table Tag</h2>
+    <table border="5" cellspacing="2" cellpadding="3">
+        <tr>
+            <th rowspan="2">Day</th>
+            <th colspan="11">Time</th>
+        </tr>
+        <tr>
+            <th>1 Period</th>
+            <th>2 Period</th>
+            <th rowspan="7">Break</th>
+            <th>3 Period</th>
+            <th>4 Period</th>
+            <th rowspan="7">Lunch</th>
+            <th>5 Period</th>
+            <th>6 Period</th>
+            <th rowspan="7">Break</th>
+            <th>7 Period</th>
+            <th>8 Period</th>
+        </tr>
+        <tr>
+            <th>Monday</th>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th>Tuesday</th>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th>Wednesday</th>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th>Thursday</th>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th>Friday</th>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th>Saturday</th>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table><br>
+
+    <h2>iframe Tag</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/7cVpA4rME8w?si=BpsG1rXxFsX4u-jq"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <h2>Media Tags</h2>
+    <h3>Audio</h3>
+    <audio controls>
+        <source src=".wav" type="audio/wav">
+        <source src=".mp3" type="audio/mp3">
+        <source src=".m4a" type="audio/m4a">
+        <source src=".ogg" type="audio/ogg">
+    </audio><br>
+    <h3>Video</h3>
+    <video controls width="40%" height="30%">
+        <source src="../../../Video Source/Advanced OOP/Algorithms/LinearSearchAlgorithm.mp4" type="video/mp4">
+        Video not supported by the browser
+    </video>
+</body>
+
+</html>
